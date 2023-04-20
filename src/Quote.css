@@ -1,0 +1,80 @@
+.page{
+    background-color:#3BB9FF;
+}
+.App{
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#3BB9FF;
+}
+
+.quoteBox{
+    position: absolute;
+    background-color:azure;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.quoteButton{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+button{
+    background-color:#3BB9FF;
+    border-radius: 28px;
+    border: 1px solid#3BB9FF;
+    display: inline-block;
+    cursor: pointer;
+    color:azure;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #6698FF;
+}
+
+button:hover{
+    background-color: #6698FF;
+}
+
+button:active{
+    position:relative;
+    top: 1px;
+}
+
+.quote{
+    margin: 1em;
+}
+
+.author{
+    float:right;
+    margin: 1em;
+}
+.features{
+  border-radius: 25%;
+  padding-right: 300px;
+}
+.speech
+{
+   color: black;
+}
+.speechButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
